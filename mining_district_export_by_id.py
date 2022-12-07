@@ -1,7 +1,7 @@
 ## This script takes an excel file of ResourceSpace IDs, grabs the metadata for those objects, and then formats them
 ## into the enterprise geodatabse format.
 
-## Need to edit before running: private_key, user,
+## Need to edit before running: private_key, user, export_path, import_path
 
 import json
 import RSAPI
